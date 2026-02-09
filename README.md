@@ -63,12 +63,13 @@ Results & insights
 
 Conclusion and references
 
-## 📑 Documentation
+📑 Documentation  
 
-The full research paper is available here:
+The full research paper is available here:  
 
-[ResearchPaper.pdf](./ResearchPaper.pdf) 
+[ResearchPaper.pdf](./docs/ResearchPaper.pdf)
+ 
 
-## 🛠️ Code The Python preprocessing script is included:
+ 🛠️ Code The Python preprocessing script is included:
 
 [Python (Pandas) Code file](./Python%20(Pandas)%20Code%20file.txt)
