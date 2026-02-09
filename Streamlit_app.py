@@ -1,2 +1,16 @@
-Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
+import streamlit as st
+import pandas as pd
+
+# Load your processed data
+df = pd.read_csv("UAC_processed.csv")
+
+st.title("Care Transition Efficiency & Placement Outcome Analytics")
+
+# Show KPIs
+st.metric("Transfer Efficiency Ratio", round(df['Transfer Efficiency'].mean(), 2))
+st.metric("Discharge Effectiveness Index", round(df['Discharge Effectiveness'].mean(), 2))
+st.metric("Pipeline Throughput", round(df['Pipeline Throughput'].mean(), 2))
+st.metric("Backlog Accumulation Rate", round(df['Inflow'].mean() - df['Exits'].mean(), 2))
+
+# Simple chart example
+st.line_chart(df[['Inflow','Exits']])
