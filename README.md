@@ -67,7 +67,7 @@ Conclusion and references
 
 The full research paper is available here:  
 
-[ResearchPaper.pdf](./ResearchPaper.pdf)
+[ResearchPaper.pdf](./Research%20Paper.pdf)
  
 
  🛠️ Code The Python preprocessing script is included:
