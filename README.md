@@ -62,3 +62,13 @@ Dashboard design
 Results & insights
 
 Conclusion and references
+
+## 📑 Documentation
+
+The full research paper is available here:
+
+[ResearchPaper.pdf](./ResearchPaper.pdf) 
+
+## 🛠️ Code The Python preprocessing script is included:
+
+[Python (Pandas) Code file](./Python%20(Pandas)%20Code%20file.txt)
