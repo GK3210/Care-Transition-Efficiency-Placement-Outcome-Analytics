@@ -63,16 +63,4 @@ df.to_csv("UAC_processed.csv", index=False)
 # Line chart: Inflow vs Exits
 
 # Control chart: Discharge Effectiveness
-plt.figure(figsize=(10,5))
-plt.plot(df['Date'], df['Discharge Effectiveness'], marker='o', linestyle='-', color='green')
-plt.axhline(mean_discharge, color='blue', linestyle='--', label='Mean')
-plt.axhline(df['Upper Limit'].iloc[0], color='red', linestyle='--', label='Upper Limit')
-plt.axhline(df['Lower Limit'].iloc[0], color='red', linestyle='--', label='Lower Limit')
-plt.title("Discharge Effectiveness Control Chart")
-plt.xlabel("Date")
-plt.ylabel("Discharge Effectiveness")
-plt.legend()
-plt.show()
-
-
 
