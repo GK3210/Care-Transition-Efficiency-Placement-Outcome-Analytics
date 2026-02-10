@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # -------------------------------
 # Step 1: Load and Clean the Data
@@ -82,3 +81,4 @@ plt.xlabel("Date")
 plt.ylabel("Discharge Effectiveness")
 plt.legend()
 plt.show()
+
