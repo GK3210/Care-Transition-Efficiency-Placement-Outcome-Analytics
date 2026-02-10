@@ -61,7 +61,6 @@ df.to_csv("UAC_processed.csv", index=False)
 # Step 6: Example Visualizations
 # -------------------------------
 # Line chart: Inflow vs Exits
-plt.figure(figsize=(10,5))
 plt.plot(df['Date'], df['Inflow'], label='Inflow', color='blue')
 plt.plot(df['Date'], df['Exits'], label='Exits', color='orange')
 plt.title("Inflow vs Exits Over Time")
@@ -81,4 +80,5 @@ plt.xlabel("Date")
 plt.ylabel("Discharge Effectiveness")
 plt.legend()
 plt.show()
+
 
