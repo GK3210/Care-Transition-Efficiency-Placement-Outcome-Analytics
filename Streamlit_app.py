@@ -1,5 +1,13 @@
 import streamlit as st
 import pandas as pd
+import streamlit as st
+
+st.title("Care Transition Efficiency & Placement Outcome Analytics")
+st.write("✅ Streamlit app is running successfully!")
+
+# Example chart
+st.line_chart({"Inflow":[10,20,30], "Exits":[5,15,25]})
+
 
 # -------------------------------
 # Step 1: Load and Clean the Data
@@ -63,4 +71,5 @@ df.to_csv("UAC_processed.csv", index=False)
 # Line chart: Inflow vs Exits
 
 # Control chart: Discharge Effectiveness
+
 
